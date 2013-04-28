@@ -11,10 +11,10 @@
 #This code was written by Richard Barnes (rbarnes@umn.edu)
 
 #Show a single species loop with lifespan held at 5 years
-./single_species_model.py -k 10 -r 3 -n 5 -c 0.01 > fig_single5years.dat
+./one_species_model.py -k 10 -r 3 -n 5 -c 0.01 > fig_single5years.dat
 
 #Show a single species loop with lifespan held at 4 years
-./single_species_model.py -k 10 -r 3 -n 4 -c 0.01 > fig_single4years.dat
+./one_species_model.py -k 10 -r 3 -n 4 -c 0.01 > fig_single4years.dat
 
 #Show a two-species loop with lifespans held at 8 years and 3 years
 #Material is fed back to a single age class in both species
