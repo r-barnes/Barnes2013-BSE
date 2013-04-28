@@ -26,3 +26,13 @@
 
 #Plot output of the models
 ./plot
+
+#Convert EPS output to PDF
+epspdf fig_one_species.eps fig_one_species.pdf
+epspdf fig_two_species.eps fig_two_species.pdf
+epspdf fig_two_species_multiple_feedback.eps fig_two_species_multiple_feedback.pdf
+
+#Crop PDFs
+pdfcrop fig_one_species.pdf fig_one_species.pdf
+pdfcrop fig_two_species.pdf fig_two_species.pdf
+pdfcrop fig_two_species_multiple_feedback.pdf fig_two_species_multiple_feedback.pdf
