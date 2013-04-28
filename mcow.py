@@ -2,7 +2,6 @@
 import scipy
 from optparse import OptionParser
 import sys
-import matplotlib.pyplot as plt
 
 def calc(ops):
 	prions=scipy.zeros(ops.lifespan)
@@ -44,6 +43,7 @@ def main():
 	xvals,yvals=calc(ops)
 
 	if ops.graph:
+    import matplotlib.pyplot as plt
 		plt.plot(xvals,yvals)
 		plt.axis([0,25,0,10000])
 		plt.show()
