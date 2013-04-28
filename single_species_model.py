@@ -1,4 +1,12 @@
 #!/usr/bin/python
+#This program simulates the spread of BSE in a one-species loop.
+#It has been used to produce figures in the manuscript
+#
+#"Modeling of bovine spongiform encephalopathy in a two-species feedback loop"
+#By: Richard Barnes and Clarence Lehman
+#doi: 10.1016/j.epidem.2013.04.001
+#
+#This code was written by Richard Barnes (rbarnes@umn.edu)
 import scipy
 from optparse import OptionParser
 import sys
