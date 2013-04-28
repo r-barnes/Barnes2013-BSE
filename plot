@@ -1,3 +1,4 @@
+#!/usr/bin/gnuplot
 set terminal postscript portrait
 set output "one_species.eps"
 
