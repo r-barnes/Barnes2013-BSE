@@ -1,4 +1,14 @@
 #!/usr/bin/gnuplot
+#This program plots the output of the models developed in the manuscript
+#
+#"Modeling of bovine spongiform encephalopathy in a two-species feedback loop"
+#By: Richard Barnes and Clarence Lehman
+#doi: 10.1016/j.epidem.2013.04.001
+#
+#The results are the figures used in the manuscript.
+#
+#This code was written by Richard Barnes (rbarnes@umn.edu)
+
 set terminal postscript portrait
 set output "fig_one_species.eps"
 
