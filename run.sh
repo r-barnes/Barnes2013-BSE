@@ -1,9 +1,12 @@
 #!/bin/bash
-#This program generates the figures in the manuscript
+#This program runs the models developed in the manuscript
 #
 #"Modeling of bovine spongiform encephalopathy in a two-species feedback loop"
 #By: Richard Barnes and Clarence Lehman
 #doi: 10.1016/j.epidem.2013.04.001
+#
+#The output of these models is then plotted and converted to PDF format to
+#produce the figures used in the manuscript.
 #
 #This code was written by Richard Barnes (rbarnes@umn.edu)
 
@@ -20,3 +23,6 @@
 #Show a two-species loop with lifespans held at 8 years and 3 years
 #Material is fed back to multiple age classes in both species
 ./two_species_model.py -k 10 -r 4 -s 0.7 -n 8 -m 3 -c 0.005,0.005,0.005,0,0,0,0,0,0.005,0.005,0 -y 40 > fig_two_species_multiple_feedback.dat
+
+#Plot output of the models
+./plot
