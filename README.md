@@ -7,7 +7,7 @@ This archive contains the code used in the manuscript
 
 By: Richard Barnes and Clarence Lehman
 
-doi: 10.1016/j.epidem.2013.04.001
+doi: [10.1016/j.epidem.2013.04.001](http://dx.doi.org/10.1016/j.epidem.2013.04.001)
 
 To generate the figures, open a command line and type:
 
